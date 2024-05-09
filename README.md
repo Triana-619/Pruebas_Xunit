@@ -86,6 +86,5 @@ namespace Pruebas_unitarias.Tests
             int number = _stringOperations.FromRomanToNumber("V");
             Assert.Equal(5, number);
         }
-
     }
 }
