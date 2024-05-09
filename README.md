@@ -104,7 +104,7 @@ Se espera que al pasar la cadena "Hola Mundo" y el carácter 'o' al método Coun
         }
 ```
 <center><h2 style="font-size: 20px;">Función 8: Pluralize </h2></center>
-<p style="text-align: justify;">Esta prueba unitaria asegura que el método `Pluralize` de la clase de operaciones de cadena transforma correctamente una palabra del singular al plural. En este caso específico, verifica que al pasar la palabra `"manzana"` como argumento al método `Pluralize`, el resultado devuelto sea `"manzanas"`, que es la forma plural correcta en español..</p>
+<p style="text-align: justify;">Esta prueba unitaria asegura que el método Pluralize de la clase de operaciones de cadena transforma correctamente una palabra del singular al plural. En este caso específico, verifica que al pasar la palabra "manzana" como argumento al método Pluralize, el resultado devuelto sea "manzanas", que es la forma plural correcta en español.</p>
 
 ```csharp
         [Fact]
@@ -115,7 +115,7 @@ Se espera que al pasar la cadena "Hola Mundo" y el carácter 'o' al método Coun
         }
 ```
 <center><h2 style="font-size: 20px;">Función 9: QuantintyInWords </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">Esta prueba unitaria verifica que el método QuantityInWords funcione adecuadamente al convertir una cantidad numérica y una palabra en su representación textual correcta. En este caso, se asegura de que al proporcionar la palabra "manzana" y el número 5, el método retorne la cadena "cinco manzanas".</p>
 
 ```csharp
         [Fact]
@@ -126,7 +126,7 @@ Se espera que al pasar la cadena "Hola Mundo" y el carácter 'o' al método Coun
         }
 ```
 <center><h2 style="font-size: 20px;">Función 10: FromRomanToNumber </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">Esta prueba unitaria confirma que el método FromRomanToNumber convierte correctamente números romanos a su equivalente numérico. En este ejemplo específico, se verifica que al ingresar el número romano "V", el método retorne el número 5 para garantizar su efectvidad.</p>
 
 ```csharp
         [Fact]
