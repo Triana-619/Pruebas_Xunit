@@ -4,6 +4,11 @@
 
 <p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
 
+using Xunit;
+using Microsoft.Extensions.Logging.Abstractions;
+using StringManipulation;
+using Microsoft.Extensions.Logging;
+
 namespace Pruebas_unitarias.Tests
 {
     public class ProgramShould
@@ -86,5 +91,6 @@ namespace Pruebas_unitarias.Tests
             int number = _stringOperations.FromRomanToNumber("V");
             Assert.Equal(5, number);
         }
+
     }
 }
