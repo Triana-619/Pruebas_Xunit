@@ -44,7 +44,8 @@ Se espera que al pasar la cadena "Hola" al método ReverseString, el resultado s
         }
 ```
 <center><h2 style="font-size: 20px;">Función 3: GetStringLength </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">La función GetStringLength es una prueba unitaria diseñada para verificar si la operación de obtención de la longitud de una cadena funciona correctamente. Esta prueba se asegura de que, al pasar una cadena al método GetStringLength de la clase StringOperations, se devuelve la longitud de la cadena de manera precisa.
+Se espera que al pasar la cadena "Hola" al método GetStringLength, se devuelva el valor 4, que es la longitud de la cadena. Si la prueba pasa satisfactoriamente, significa que la función GetStringLength está funcionando correctamente.</p>
 
 ```csharp
         [Fact]
@@ -55,7 +56,8 @@ Se espera que al pasar la cadena "Hola" al método ReverseString, el resultado s
         }
 ```
 <center><h2 style="font-size: 20px;">Función 4: RemoveWhitespace </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">La función RemoveWhitespace es una prueba unitaria diseñada para verificar si la operación de eliminar los espacios en blanco de una cadena funciona correctamente. Esta prueba se asegura de que, al pasar una cadena con espacios en blanco al método RemoveWhitespace de la clase StringOperations, se devuelva la cadena sin los espacios en blanco.
+Se espera que al pasar la cadena "H o l a" al método RemoveWhitespace, se devuelva la cadena "Hola" sin espacios en blanco. Si la prueba pasa satisfactoriamente, significa que la función RemoveWhitespace está funcionando correctamente.</p>
 
 ```csharp
         [Fact]
@@ -66,7 +68,8 @@ Se espera que al pasar la cadena "Hola" al método ReverseString, el resultado s
         }
 ```
 <center><h2 style="font-size: 20px;">Función 5: TruncateString </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">La función TruncateString es una prueba unitaria diseñada para verificar si la operación de truncar una cadena a una longitud específica funciona correctamente. Esta prueba se asegura de que, al pasar una cadena y una longitud al método TruncateString de la clase StringOperations, se devuelva una subcadena truncada con la longitud especificada.
+Se espera que al pasar la cadena "Hola Mundo" y una longitud de 4 al método TruncateString, se devuelva la subcadena "Hola". Si la prueba pasa satisfactoriamente, significa que la función TruncateString está funcionando correctamente.</p>
 
 ```csharp
         [Fact]
@@ -77,7 +80,8 @@ Se espera que al pasar la cadena "Hola" al método ReverseString, el resultado s
         }
 ```
 <center><h2 style="font-size: 20px;">Función 6: IsPalindrome </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">La función IsPalindrome es una prueba unitaria diseñada para verificar si una cadena es un palíndromo correctamente. Un palíndromo es una palabra o frase que se lee igual de izquierda a derecha que de derecha a izquierda.
+Se espera que al pasar la cadena "anilina" al método IsPalindrome, el resultado sea verdadero (true) ya que "anilina" es un palíndromo. Si la prueba pasa satisfactoriamente, significa que la función IsPalindrome está funcionando correctamente.</p>
 
 ```csharp
         [Fact]
@@ -88,7 +92,8 @@ Se espera que al pasar la cadena "Hola" al método ReverseString, el resultado s
         }
 ```
 <center><h2 style="font-size: 20px;">Función 7: CountOccurrences </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">La función CountOccurrences es una prueba unitaria diseñada para verificar si la operación de contar las ocurrencias de un carácter específico en una cadena funciona correctamente. Esta prueba se asegura de que, al pasar una cadena y un carácter al método CountOccurrences de la clase StringOperations, se devuelva el número correcto de ocurrencias del carácter en la cadena.
+Se espera que al pasar la cadena "Hola Mundo" y el carácter 'o' al método CountOccurrences, el resultado sea 2, ya que el carácter 'o' aparece dos veces en la cadena. Si la prueba pasa satisfactoriamente, significa que la función CountOccurrences está funcionando correctamente.</p>
 
 ```csharp
         [Fact]
