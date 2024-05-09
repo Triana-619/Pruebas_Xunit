@@ -104,7 +104,7 @@ Se espera que al pasar la cadena "Hola Mundo" y el carácter 'o' al método Coun
         }
 ```
 <center><h2 style="font-size: 20px;">Función 8: Pluralize </h2></center>
-<p style="text-align: justify;">El proyecto se realizó con el objetivo de ejecutar pruebas unitarias en Microsoft Visual Studio usando el lenguaje C# e implementando la herramienta xUnit. Además, se hicieron 11 funciones que interactúan con cadenas de texto para proporcionar diferentes soluciones.</p>
+<p style="text-align: justify;">Esta prueba unitaria asegura que el método `Pluralize` de la clase de operaciones de cadena transforma correctamente una palabra del singular al plural. En este caso específico, verifica que al pasar la palabra `"manzana"` como argumento al método `Pluralize`, el resultado devuelto sea `"manzanas"`, que es la forma plural correcta en español..</p>
 
 ```csharp
         [Fact]
